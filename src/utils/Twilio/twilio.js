@@ -1,10 +1,10 @@
 import twilio from "twilio";
 
-const accountSid = "AC3fdffbd13eb1f84408b05f24ee17267e";
-const authToken = "c0afc0e9b3804fa73a16959dc3dd162d";
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
+const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = twilio(accountSid, authToken);
 
-const fixedNumber = "+917620876689"; // Only send to this number
+const fixedNumber = process.env.TWILIO_FIXED_NUMBER; // Only send to this number
 
 // Function to generate a 6-digit OTP
 export const generateOTP = () => {
