@@ -19,11 +19,13 @@ const profileUpdateController = async (req, res) => {
       User_Gender: gender,
       User_Image: image,
     });
+
     if (updateUser) {
+      const user = await userModel.findById(id);
       return res.status(200).json({
         success: true,
         message: "Profile updated successfully",
-        data: updateUser,
+        data: user,
       });
     } else {
       return res.status(400).json({
