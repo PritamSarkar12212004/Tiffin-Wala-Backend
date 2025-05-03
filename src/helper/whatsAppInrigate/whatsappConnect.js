@@ -1,6 +1,7 @@
 import qrcode from "qrcode-terminal";
 import pkg from "whatsapp-web.js";
 import fs from "fs";
+import puppeteer from 'puppeteer';
 const { Client, LocalAuth } = pkg;
 
 let client = null;
