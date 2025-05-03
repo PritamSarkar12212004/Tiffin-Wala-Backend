@@ -2,10 +2,10 @@
 /node_modules
 
 # WhatsApp session files - allow session but ignore logs
-.wwebjs_auth/session/Default/IndexedDB/**/*.log
-.wwebjs_auth/session/Default/Local Storage/**/*.log
-.wwebjs_auth/session/Default/Service Worker/**/*.log
-.wwebjs_auth/session/Default/Session Storage/**/*.log
-.wwebjs_auth/session/Default/chrome_debug.log
-.wwebjs_auth/session/DevToolsActivePort
-.wwebjs_cache/
+# .wwebjs_auth/session/Default/IndexedDB/**/*.log
+# .wwebjs_auth/session/Default/Local Storage/**/*.log
+# .wwebjs_auth/session/Default/Service Worker/**/*.log
+# .wwebjs_auth/session/Default/Session Storage/**/*.log
+# .wwebjs_auth/session/Default/chrome_debug.log
+# .wwebjs_auth/session/DevToolsActivePort
+# .wwebjs_cache/
