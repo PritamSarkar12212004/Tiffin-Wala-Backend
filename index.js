@@ -8,10 +8,10 @@ import socketManager from "./src/socket/manager/Socketmanager.js";
 import connectDB from "./src/database/DataBase.js";
 
 // import routes
-import otpRoute from "./src/routers/otp/otpRoute.js";
-import userRoute from "./src/routers/user/userRoute.js";
-import productRoutes from "./src/routers/product/productRoutes.js";
-import searchEngineRoute from "./src/routers/searchEngine/searchEngineRoute.js";
+import otpRoute from "./src/routes/otp/otpRoute.js";
+import userRoute from "./src/routes/user/userRoute.js";
+import productRoutes from "./src/routes/product/productRoutes.js";
+import searchEngineRoute from "./src/routes/searchEngine/searchEngineRoute.js";
 import whatsappConnect from "./src/helper/whatsAppInrigate/whatsappConnect.js";
 // create server
 const app = express();
