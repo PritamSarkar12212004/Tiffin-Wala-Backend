@@ -1,7 +1,5 @@
 import qrcode from "qrcode-terminal";
 import pkg from "whatsapp-web.js";
-import fs from "fs";
-import puppeteer from 'puppeteer';
 const { Client, LocalAuth } = pkg;
 
 let client = null;
@@ -9,14 +7,10 @@ let client = null;
 const whatsappConnect = () => {
   return new Promise((resolve, reject) => {
     try {
-      const authDir = '/tmp/.wwebjs_auth';
-      if (!fs.existsSync(authDir)) {
-        fs.mkdirSync(authDir, { recursive: true });
-      }
       client = new Client({
         authStrategy: new LocalAuth({
           clientId: "whatsapp-client",
-          dataPath: authDir,
+          dataPath: "./.wwebjs_auth"
         }),
         puppeteer: {
           headless: true,
@@ -27,9 +21,9 @@ const whatsappConnect = () => {
             "--disable-accelerated-2d-canvas",
             "--no-first-run",
             "--no-zygote",
-            "--disable-gpu",
-          ],
-        },
+            "--disable-gpu"
+          ]
+        }
       });
 
       client.on("qr", (qr) => {
