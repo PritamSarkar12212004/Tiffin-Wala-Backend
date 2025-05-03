@@ -1,4 +1,5 @@
 import otpModel from "../../model/otpModel/otpModel.js";
+import userModel from "../../model/userModel/userModel.js";
 import { generateOTP } from "../../utils/Twilio/twilio.js";
 import { client } from "../../helper/whatsAppInrigate/whatsappConnect.js";
 import whatsappIntrigateFunc from "../../helper/whatsappIntrigateFunc/whatsappIntrigateFunc.js";
@@ -18,7 +19,9 @@ const signupOtpController = async (req, res) => {
     }
 
     // Check if number exists
-    const existingNumber = await otpModel.findOne({ Phone_Number: number });
+    const existingNumber = await userModel.findOne({
+      User_Phone_Number: number,
+    });
     if (existingNumber) {
       console.log("Number already exists");
       return res.status(400).json({
