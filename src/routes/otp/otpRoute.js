@@ -1,7 +1,7 @@
 import express from "express";
 import async_handler from "express-async-handler";
 import signupOtpController from "../../controller/otp/signupOtpController.js";
-import signinOtpController from "../../controller/otp/signInOtpController.js";
+import signinOtpController from "../../controller/otp/signinOtpController.js";
 const router = express.Router();
 router.post("/signup", async_handler(signupOtpController));
 router.post("/signin", async_handler(signinOtpController));

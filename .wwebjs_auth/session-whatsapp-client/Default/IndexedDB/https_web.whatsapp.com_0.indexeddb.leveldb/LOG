@@ -1,13 +1,13 @@
-2025/05/03-12:41:21.541 25e0 Reusing MANIFEST F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/03-12:41:21.542 25e0 Recovering log #60
-2025/05/03-12:41:21.581 25e0 Reusing old log F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000060.log 
-2025/05/03-12:41:23.846 9e4 Level-0 table #65: started
-2025/05/03-12:41:23.854 9e4 Level-0 table #65: 155129 bytes OK
-2025/05/03-12:41:23.857 9e4 Delete type=0 #60
-2025/05/03-12:41:23.860 2364 Manual compaction at level-0 from '\x00\x1f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00 \x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/05/03-12:41:28.457 9e4 Compacting 1@1 + 1@2 files
-2025/05/03-12:41:28.791 9e4 Generated table #66@1: 45473 keys, 2089394 bytes
-2025/05/03-12:41:28.791 9e4 Compacted 1@1 + 1@2 files => 2089394 bytes
-2025/05/03-12:41:28.792 9e4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/03-12:41:28.792 9e4 Delete type=2 #62
-2025/05/03-12:41:28.793 9e4 Delete type=2 #65
+2025/05/03-12:49:18.882 93c Reusing MANIFEST F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/03-12:49:18.882 93c Recovering log #64
+2025/05/03-12:49:18.913 93c Reusing old log F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000064.log 
+2025/05/03-12:49:21.342 2e08 Level-0 table #69: started
+2025/05/03-12:49:21.349 2e08 Level-0 table #69: 111584 bytes OK
+2025/05/03-12:49:21.351 2e08 Delete type=0 #64
+2025/05/03-12:49:21.352 2e08 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/03-12:49:24.662 2e08 Compacting 1@1 + 1@2 files
+2025/05/03-12:49:24.883 2e08 Generated table #70@1: 46755 keys, 2129352 bytes
+2025/05/03-12:49:24.883 2e08 Compacted 1@1 + 1@2 files => 2129352 bytes
+2025/05/03-12:49:24.884 2e08 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/03-12:49:24.884 2e08 Delete type=2 #66
+2025/05/03-12:49:24.884 2e08 Delete type=2 #69
