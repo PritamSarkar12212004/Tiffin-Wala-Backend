@@ -3,7 +3,6 @@ import postModel from "../../model/product/postModel.js";
 const fetchMainDataProductController = async (req, res) => {
   try {
     const { latitude, longitude } = req.body.locationData || {};
-
     // Validate inputs
     if (
       latitude === undefined ||

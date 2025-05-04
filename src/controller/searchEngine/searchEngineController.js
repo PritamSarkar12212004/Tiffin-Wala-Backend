@@ -18,7 +18,6 @@ const searchEngineController = async (req, res) => {
   try {
     const { query } = req.body;
     const { latitude, longitude } = req.body.location || {};
-
     // Validate inputs
     if (
       latitude === undefined ||
