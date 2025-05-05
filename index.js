@@ -8,6 +8,7 @@ import socketManager from "./src/socket/manager/Socketmanager.js";
 import connectDB from "./src/database/DataBase.js";
 
 // import routes
+import checkRoute from "./src/routes/check/chackRoute.js";
 import otpRoute from "./src/routes/otp/otpRoute.js";
 import userRoute from "./src/routes/user/userRoute.js";
 import productRoutes from "./src/routes/product/productRoutes.js";
@@ -32,6 +33,9 @@ app.use(express.json());
 socketManager(server);
 
 // routes
+
+// update check routes
+app.use("/api/check", checkRoute);
 
 // otp routes
 app.use("/api/otp", otpRoute);
