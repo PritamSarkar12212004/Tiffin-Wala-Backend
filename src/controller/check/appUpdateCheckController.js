@@ -2,7 +2,7 @@ const appUpdateCheckController = async (req, res) => {
   try {
     const { appId, appName, appVersion } = req.body;
     console.log(appId, appName, appVersion);
-    if (appVersion === "1.0.") {
+    if (appVersion === "1.0.0") {
       res.status(200).json({
         message: "App is up to date",
         version: "1.0.0",
