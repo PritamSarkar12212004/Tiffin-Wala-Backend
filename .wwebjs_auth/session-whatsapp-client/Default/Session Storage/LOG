@@ -1,3 +1,2 @@
-2025/05/07-00:19:54.990 220c Reusing MANIFEST F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\Session Storage/MANIFEST-000001
-2025/05/07-00:19:54.991 220c Recovering log #3
-2025/05/07-00:19:54.991 220c Reusing old log F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\Session Storage/000003.log 
+2025/05/07-14:47:37.038 1f5c Creating DB F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\Session Storage since it was missing.
+2025/05/07-14:47:37.043 1f5c Reusing MANIFEST F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\Session Storage/MANIFEST-000001

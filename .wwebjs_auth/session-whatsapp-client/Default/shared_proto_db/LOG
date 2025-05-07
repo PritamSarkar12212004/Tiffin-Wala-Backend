@@ -1,3 +1,2 @@
-2025/05/06-23:33:31.890 1b68 Reusing MANIFEST F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\shared_proto_db/MANIFEST-000001
-2025/05/06-23:33:31.891 1b68 Recovering log #3
-2025/05/06-23:33:31.891 1b68 Reusing old log F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\shared_proto_db/000003.log 
+2025/05/07-14:53:07.558 2988 Creating DB F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\shared_proto_db since it was missing.
+2025/05/07-14:53:07.563 2988 Reusing MANIFEST F:\startup\Backend\.wwebjs_auth\session-whatsapp-client\Default\shared_proto_db/MANIFEST-000001
