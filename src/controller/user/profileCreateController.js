@@ -6,7 +6,7 @@ const profileCreateController = async (req, res) => {
     const fullAddress = {
       latitude: location.latitude,
       longitude: location.longitude,
-      address: location.address,
+      address: location.fullAddress,
     };
     const findData = await userModel.findOne({ User_Phone_Number: phone });
     if (findData) {

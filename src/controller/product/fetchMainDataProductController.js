@@ -56,7 +56,7 @@ const fetchMainDataProductController = async (req, res) => {
     }
 
     // Add distance to each product and sort
-    const productsWithDistance = nearbyProducts.map(product => {
+    const productsWithDistance = nearbyProducts.map((product) => {
       const productLocation = product.location.coordinates;
       const distance = calculateDistance(
         latitude,
@@ -68,7 +68,7 @@ const fetchMainDataProductController = async (req, res) => {
       return {
         ...product.toObject(),
         distance: roundedDistance, // Keep original distance for calculations
-        distanceText: `${roundedDistance} km` // Add formatted distance text
+        distanceText: `${roundedDistance} km`, // Add formatted distance text
       };
     });
 

@@ -13,7 +13,7 @@ const profileLoginController = async (req, res) => {
     }
     res.status(400).json({
       success: false,
-      message: "User Not exists",
+      message: "User Not exists please signup",
       success: true,
     });
   } catch (error) {
