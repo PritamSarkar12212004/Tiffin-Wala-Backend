@@ -1,7 +1,0 @@
-2025/05/29-23:25:50.848 3c28 Reusing MANIFEST C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/29-23:25:50.849 3c28 Recovering log #857
-2025/05/29-23:25:50.851 3c28 Reusing old log C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000857.log 
-2025/05/29-23:25:50.863 3c28 Level-0 table #861: started
-2025/05/29-23:25:50.865 3c28 Level-0 table #861: 7226 bytes OK
-2025/05/29-23:25:50.866 3c28 Delete type=0 #857
-2025/05/29-23:25:50.866 3c28 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

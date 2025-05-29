@@ -1,3 +1,2 @@
-2025/05/29-23:25:49.946 2494 Reusing MANIFEST C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\Local Storage\leveldb/MANIFEST-000001
-2025/05/29-23:25:49.947 2494 Recovering log #4
-2025/05/29-23:25:49.947 2494 Reusing old log C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\Local Storage\leveldb/000004.log 
+2025/05/29-23:39:15.088 2130 Creating DB C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\Local Storage\leveldb since it was missing.
+2025/05/29-23:39:15.092 2130 Reusing MANIFEST C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\Local Storage\leveldb/MANIFEST-000001

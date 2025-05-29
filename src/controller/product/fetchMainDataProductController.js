@@ -3,6 +3,8 @@ import postModel from "../../model/product/postModel.js";
 const fetchMainDataProductController = async (req, res) => {
   try {
     const { latitude, longitude } = req.body.locationData || {};
+    const distance = req.body.distance;
+    const foodType = req.body.foodType;
     // Validate inputs
     if (
       latitude === undefined ||
@@ -31,7 +33,7 @@ const fetchMainDataProductController = async (req, res) => {
       return R * c; // Distance in kilometers
     };
 
-    const radiusInKm = 5;
+    const radiusInKm = distance.icon || 5;
     const radiusInRadians = radiusInKm / 6378.1; // Earth radius in km
 
     // Find nearby products with postStatus Active
@@ -45,6 +47,10 @@ const fetchMainDataProductController = async (req, res) => {
         },
       },
       postStatus: "Active",
+      postFoodType:
+        foodType.name == "All"
+          ? { $in: ["Veg", "Non-Veg", "Vegan"] }
+          : foodType.name,
     });
 
     if (nearbyProducts.length === 0) {
