@@ -1,17 +1,7 @@
-2025/05/28-01:45:08.607 1f4c Reusing MANIFEST C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/28-01:45:08.608 1f4c Recovering log #111
-2025/05/28-01:45:08.634 1f4c Reusing old log C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000111.log 
-2025/05/28-01:45:10.102 1f4c Level-0 table #118: started
-2025/05/28-01:45:10.106 1f4c Level-0 table #118: 210887 bytes OK
-2025/05/28-01:45:10.106 1f4c Delete type=0 #111
-2025/05/28-01:45:10.107 1f4c Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/05/28-01:45:11.410 2ac8 Compacting 1@1 + 3@2 files
-2025/05/28-01:45:11.526 2ac8 Generated table #119@1: 57395 keys, 2217201 bytes
-2025/05/28-01:45:11.585 2ac8 Generated table #120@1: 30286 keys, 2187997 bytes
-2025/05/28-01:45:11.595 2ac8 Generated table #121@1: 9099 keys, 189281 bytes
-2025/05/28-01:45:11.595 2ac8 Compacted 1@1 + 3@2 files => 4594479 bytes
-2025/05/28-01:45:11.597 2ac8 compacted to: files[ 0 0 3 0 0 0 0 ]
-2025/05/28-01:45:11.597 2ac8 Delete type=2 #113
-2025/05/28-01:45:11.597 2ac8 Delete type=2 #114
-2025/05/28-01:45:11.597 2ac8 Delete type=2 #115
-2025/05/28-01:45:11.597 2ac8 Delete type=2 #118
+2025/05/29-23:25:50.848 3c28 Reusing MANIFEST C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/29-23:25:50.849 3c28 Recovering log #857
+2025/05/29-23:25:50.851 3c28 Reusing old log C:\Users\Pritam\Desktop\Tiffin-Wala-Backend\.wwebjs_auth\session-whatsapp-client\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000857.log 
+2025/05/29-23:25:50.863 3c28 Level-0 table #861: started
+2025/05/29-23:25:50.865 3c28 Level-0 table #861: 7226 bytes OK
+2025/05/29-23:25:50.866 3c28 Delete type=0 #857
+2025/05/29-23:25:50.866 3c28 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

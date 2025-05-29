@@ -52,7 +52,7 @@ app.use("/api/search", searchEngineRoute);
 // connect to the database
 connectDB()
   .then(() => {
-    whatsappConnect();
+    // whatsappConnect();
     // listen server
     server.listen(process.env.PORT, () => {
       console.log(`Server is running on port ${process.env.PORT}`);
