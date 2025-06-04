@@ -4,6 +4,7 @@ const top3ProductFinderController = async (req, res) => {
   try {
     const { latitude, longitude } = req.body.locationData || {};
     const { priceRange } = req.body.filters || { priceRange: [0, 3500] }; // Default price range if not provided
+    const { distance } = req.body;
 
     // Validate inputs
     if (
@@ -18,7 +19,7 @@ const top3ProductFinderController = async (req, res) => {
       });
     }
 
-    const radiusInKm = 5;
+    const radiusInKm = distance || 10;
     const radiusInRadians = radiusInKm / 6378.1; // Earth radius in km
 
     const nearbyProducts = await postModel.find({
@@ -64,7 +65,7 @@ const top3ProductFinderController = async (req, res) => {
     });
 
     // Get only top 3 products
-    const top3Products = likesSorted.slice(0, 3);
+    const top3Products = likesSorted.slice(0, 6);
 
     return res.status(200).json({
       success: true,

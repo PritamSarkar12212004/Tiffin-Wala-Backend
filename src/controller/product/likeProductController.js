@@ -30,9 +30,11 @@ const likeProductController = async (req, res) => {
       product.productLikes = product.productLikes.filter(
         (id) => id.toString() !== userObjectId.toString()
       );
+      console.log("unlike");
     } else {
       // If not liked, then like
       product.productLikes.push(userObjectId);
+      console.log("like");
     }
 
     await product.save();

@@ -11,6 +11,7 @@ import likeFetchController from "../../controller/product/likeFetchController.js
 import viewsProductController from "../../controller/product/viewsProductController.js";
 import profuctFilterController from "../../controller/product/profuctFilterController.js";
 import top3ProductFinderController from "../../controller/product/top3ProductFinderController.js";
+import allLikeProductController from "../../controller/product/allLikeProductController.js";
 const router = express.Router();
 router.post(
   "/fetch-mainData-product",
@@ -23,6 +24,7 @@ router.post("/update-product", async_handler(productUpdateController));
 router.post("/delete-product", async_handler(deleteProductController));
 router.post("/status-product", async_handler(statusProductController));
 router.post("/like-product", async_handler(likeProductController));
+router.post("/fetch-all-like-product", async_handler(allLikeProductController));
 router.post("/like-fetch-product", async_handler(likeFetchController));
 router.post("/filter-data-product", async_handler(profuctFilterController));
 

@@ -16,7 +16,7 @@ const calculateDistance = (lat1, lon1, lat2, lon2) => {
 
 const searchEngineController = async (req, res) => {
   try {
-    const { query } = req.body;
+    const { query, distance } = req.body;
     const { latitude, longitude } = req.body.location || {};
     // Validate inputs
     if (
@@ -31,7 +31,7 @@ const searchEngineController = async (req, res) => {
       });
     }
 
-    const radiusInKm = 10;
+    const radiusInKm = distance.icon || 10;
     const radiusInRadians = radiusInKm / 6378.1; // Earth radius in km
 
     // Create aggregation pipeline
