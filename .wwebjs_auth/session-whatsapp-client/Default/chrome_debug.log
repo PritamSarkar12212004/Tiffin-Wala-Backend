@@ -1,36 +1,70 @@
-[0529/233915.650:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
-[0529/233915.651:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
-[0529/233918.784:INFO:CONSOLE(162)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/c9JvPMPV1Hs.js (162)
-[0529/233923.791:INFO:CONSOLE(6)] "Uncaught (in promise) Error: secretKey is null or undefined", source:  (6)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
-[0529/234000.497:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
-[0529/234000.559:ERROR:entry_impl.cc(1072)] No file for 80000003
-[0529/234000.559:ERROR:entry_impl.cc(1072)] No file for 80000001
-[0529/234000.562:ERROR:entry_impl.cc(1072)] No file for 80000004
-[0529/234000.563:ERROR:entry_impl.cc(1072)] No file for 80000008
-[0529/234000.565:ERROR:entry_impl.cc(1072)] No file for 80000007
-[0529/234000.567:ERROR:entry_impl.cc(1072)] No file for 80000006
-[0529/234000.567:ERROR:entry_impl.cc(1072)] No file for 80000009
-[0529/234000.568:ERROR:entry_impl.cc(1072)] No file for 8000000a
-[0529/234000.568:ERROR:entry_impl.cc(1072)] No file for 80000002
-[0529/234000.632:ERROR:entry_impl.cc(1072)] No file for 80000005
-[0529/234003.706:INFO:CONSOLE(0)] "The resource https://static.whatsapp.net/rsrc.php/v5/yP/l/0,cross/W2E3XWeK8erZgDB1zpmqsa1zVut4JOSD9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://web.whatsapp.com/ (0)
-[0529/234003.706:INFO:CONSOLE(0)] "The resource https://static.whatsapp.net/rsrc-translations.php/v8i2HK4/yK/l/en_GB/_BYR94LrsD5.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://web.whatsapp.com/ (0)
-[0529/234003.706:INFO:CONSOLE(0)] "The resource https://static.whatsapp.net/rsrc-translations.php/v8iQ2z4/yE/l/en_GB/3rBH112SM1b.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://web.whatsapp.com/ (0)
-[0529/234003.706:INFO:CONSOLE(0)] "The resource https://static.whatsapp.net/rsrc-translations.php/v8idjy4/yy/l/en_GB/KiMtZFXCu09apS1AhPu7s8soLVF47NEitsxUyAL4J_8rQybVuTwpnxFhwLt-Qd1FO_yz4zx1lgyaALbOlywjqKkhskEY4gXGevzsm5qABrggsQy6r-XkQF5xJgsVb4mvlabbqjBrVe7v8zMF96L2CjyB8xWcEXHdrAXq_-KKAzdNCE_zvsWqehdEtWwjMrQh0SH6CN.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://web.whatsapp.com/ (0)
+[0604/235307.057:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0604/235307.057:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0604/235307.057:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0604/235307.057:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0604/235307.057:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0604/235307.058:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0604/235307.058:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0604/235307.058:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0604/235307.058:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0604/235307.058:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0604/235307.058:INFO:CONSOLE(0)] "Document-Policy HTTP header: Unrecognized document policy feature name include-js-call-stacks-in-crash-reports.", source: https://web.whatsapp.com/ (0)
+[0604/235309.167:INFO:CONSOLE(162)] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yT/r/CsD783r51tS.js (162)
+[0604/235324.301:INFO:CONSOLE(6)] "Uncaught (in promise) Error: secretKey is null or undefined", source:  (6)
+[0604/235334.350:INFO:CONSOLE(77)] "ErrorUtils caught an error:
+
+Converting to a string will drop content data. Hash="undefined" Translation="{user_name} added {names}" Content="{"key":null,"ref":null,"props":{"contact":{"id":"919834634461@c.us","type":"in","textStatusLastUpdateTime":-1,"syncToAddressbook":false},"showNotifyName":true,"elevatedPushNamesEnabled":true,"onClick":null}}" (type=object,Object)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/y9/r/FAehVaQOpO8.js (77)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'attribution-reporting'.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'compute-pressure'.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-issuance'.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'shared-storage'.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'shared-storage-select-url'.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'private-state-token-redemption'.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'unload'.", source:  (0)
+[0604/235408.483:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0604/235408.484:INFO:CONSOLE(0)] "Document-Policy HTTP header: Unrecognized document policy feature name include-js-call-stacks-in-crash-reports.", source: https://web.whatsapp.com/ (0)
+[0604/235408.510:ERROR:entry_impl.cc(1072)] No file for 80000004
+[0604/235408.787:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235408.787:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235408.834:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235408.835:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235408.877:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235408.877:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235408.879:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235408.880:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235408.893:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235408.893:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.009:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.009:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.020:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.020:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.098:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.098:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.102:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.102:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.232:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.232:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.239:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.239:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.240:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.240:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.261:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.261:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.267:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.267:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.277:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.278:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.285:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.285:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.305:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.305:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.331:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.331:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.331:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.332:ERROR:entry_impl.cc(995)] Failed to save user data
+[0604/235409.333:ERROR:backend_impl.cc(754)] Unable to create file: -4
+[0604/235409.333:ERROR:entry_impl.cc(995)] Failed to save user data
