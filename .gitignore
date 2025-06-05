@@ -1,5 +1,6 @@
 .env
 /node_modules
+.firebase-admin-sdk.json
 
 # WhatsApp session files - allow session but ignore logs
 # .wwebjs_auth/session/Default/IndexedDB/**/*.log

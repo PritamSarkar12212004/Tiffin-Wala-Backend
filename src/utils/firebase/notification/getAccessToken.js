@@ -6,10 +6,8 @@ import { dirname } from "path";
 // get  access token
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const firebaseConfigPath = path.join(
-  __dirname,
-  "../../../../firebase-admin-sdk.json"
-);
+const firebaseConfigPath = path.join(__dirname, "../../../../firebase-admin-sdk.json");
+
 
 // Function to get an access token using Google OAuth2
 async function getAccessToken() {
