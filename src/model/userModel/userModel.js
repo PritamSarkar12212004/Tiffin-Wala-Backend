@@ -22,6 +22,10 @@ const userSchema = new mongoose.Schema(
     User_Address: {
       type: {},
     },
+    token: {
+      type: String,
+      default: null,
+    },
     User_Created_At: {
       type: Date,
       default: Date.now,
