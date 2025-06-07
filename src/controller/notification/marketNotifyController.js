@@ -29,7 +29,7 @@ const marketNotifyController = async (req, res) => {
       const response = await admin.messaging().send(message);
       console.log("Notification sent successfully:", response);
       res.status(200).json({ success: true, response });
-    }, 20000);
+    }, 1000);
   } catch (error) {
     console.error("Error sending notification:", error);
     res.status(500).json({ success: false, error: error.message });
