@@ -1,14 +1,15 @@
 import admin from "firebase-admin";
-const marketNotifyController = async (req, res) => {
+const remindernotifyController = async (req, res) => {
   const { token, title, body } = req.body;
   const message = {
     notification: {
-      title: "Aaj Ka Tiffin Taiyar Hai!",
-      body: "Fresh aur garma-garam tiffin aapka intezaar kar raha hai. Jaldi order karein!",
+      title:
+        "Tiffin garma-garam ready hai — abhi order karo aur time pe enjoy karo! 🍱",
+      body: "Hello Pritam This is the best event notification",
     },
     data: {
-      type: "open",
-      navigate: "home",
+      type: "remainder",
+      navigate: "dashboard",
     },
 
     android: { priority: "high" },
@@ -29,11 +30,10 @@ const marketNotifyController = async (req, res) => {
       const response = await admin.messaging().send(message);
       console.log("Notification sent successfully:", response);
       res.status(200).json({ success: true, response });
-    }, 20000);
+    }, 1000);
   } catch (error) {
     console.error("Error sending notification:", error);
     res.status(500).json({ success: false, error: error.message });
   }
 };
-
-export default marketNotifyController;
+export default remindernotifyController;
