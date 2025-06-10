@@ -3,10 +3,11 @@ const profileCreateController = async (req, res) => {
   try {
     const { username, email, gender, bio, location } = req.body.profileData;
     const { image, phone } = req.body;
+    console.log(username, email, gender, bio, image, phone, location);
     const fullAddress = {
       latitude: location.latitude,
       longitude: location.longitude,
-      address: location.fullAddress,
+      address: location.address,
     };
     const findData = await userModel.findOne({ User_Phone_Number: phone });
     if (findData) {
