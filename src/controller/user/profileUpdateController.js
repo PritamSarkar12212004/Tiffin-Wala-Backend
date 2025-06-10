@@ -2,30 +2,46 @@ import userModel from "../../model/userModel/userModel.js";
 
 const profileUpdateController = async (req, res) => {
   try {
-    const { name, email, phone, address, bio, gender, latitude, longitude } =
-      req.body.profileData;
-    const { image, id } = req.body;
+    const {
+      name,
+      email,
+      address,
+      bio,
+      latitude,
+      longitude,
+      image,
+      id,
+      gender,
+    } = req.body;
+
     const fullAddress = {
       latitude: latitude,
       longitude: longitude,
       address: address,
     };
 
-    const updateUser = await userModel.findByIdAndUpdate(id, {
+    // Create update object dynamically
+    const updateFields = {
       User_Address: fullAddress,
-      User_Name: name ? name : null,
-      User_Email: email ? email : null,
-      User_Phone_Number: phone ? phone : null,
-      User_Bio: bio ? bio : null,
-      User_Gender: gender ? gender : null,
-      User_Image: image ? image : null,
+    };
+
+    if (name !== undefined) updateFields.User_Name = name;
+    if (email !== undefined) updateFields.User_Email = email;
+    if (bio !== undefined) updateFields.User_Bio = bio;
+    if (gender !== undefined) updateFields.User_Gender = gender;
+    if (image !== undefined && image !== null && image !== "") {
+      updateFields.User_Image = image;
+    }
+
+    const updateUser = await userModel.findByIdAndUpdate(id, updateFields, {
+      new: true,
     });
+
     if (updateUser) {
-      const user = await userModel.findById(id);
       return res.status(200).json({
         success: true,
         message: "Profile updated successfully",
-        data: user,
+        data: updateUser,
       });
     } else {
       return res.status(400).json({
